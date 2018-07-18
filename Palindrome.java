@@ -10,7 +10,7 @@ public class Palindrome {
 		String str;
 		String str_rev = "";
 		Scanner sc = new Scanner(System.in);
-		str = sc.next();
+		str = sc.nextLine();
 		Stack s = new Stack();
 		for(int i = 0 ; i < str.length() ; i++){
 			s.push(str.charAt(i));
